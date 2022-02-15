@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de tabelas </title>
+    <style>
+        table {
+            border: 1;
+            border-color: blue;
+            border-style: solid;
+        }
+        td, th {
+            border: 1;
+            border-color: rgb(40, 43, 41);
+            border-style: dashed;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Minha Primeira Tabela HTML5  
+        </caption>
+        
+        <colgroup>
+            <col span="2" 
+            style="background-color: red;">
+            <col span="2" style="background-color: yellow;">
+
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th> coluna 1</th>
+                <th> coluna 2</th>
+                <th> coluna 3</th>
+                <th> coluna 4 </th>
+                
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+            </tr>
+            <tr>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+            </tr>
+            <tr>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+            </tr>
+            <tr>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+            </tr>
+            <tr>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+                <td> oi</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5" col style="background-color: rgb(182, 223, 182);"> rodapé da tabela </td>
+            </tr>
+        </tfoot>
+        
+    </table>
+    
+</body>
+</html>
